@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         findViewById(R.id.check_perm_btn).setOnClickListener(this);
         findViewById(R.id.check_net_btn).setOnClickListener(this);
         findViewById(R.id.check_login_btn).setOnClickListener(this);

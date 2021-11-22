@@ -17,14 +17,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
         radioGroup = (RadioGroup) findViewById(R.id.login_rg);
         radioGroup.setOnCheckedChangeListener(this);
         findViewById(R.id.my_attention_tv).setOnClickListener(this);
         findViewById(R.id.my_foot_print_tv).setOnClickListener(this);
         findViewById(R.id.my_shopping_cart_tv).setOnClickListener(this);
     }
-
 
     @Override
     public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
